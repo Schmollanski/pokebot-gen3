@@ -1,4 +1,9 @@
-# See wiki for documentation: https://github.com/40Cakes/pokebot-gen3/wiki/%E2%9D%8C-Catch-Block-List
+# Catch block list config
+# See readme for documentation: https://github.com/40Cakes/pokebot-gen3#catch_blockyml---catch-block-config
 
 block_list:
-  - MissingNo
+  - Poochyena
+  - Taillow
+  - Abra
+  - Whismur
+  - Nincada

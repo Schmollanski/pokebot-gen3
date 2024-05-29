@@ -82,7 +82,7 @@ def custom_catch_filters(pokemon: Pokemon) -> str | bool:
             # Pokémon with all 0 IVs
             if pokemon.ivs.sum() == 0:
                 return "Pokémon with all 0 IVs"
-                # pass
+                pass
 
             # Pokémon with 6 identical IVs of any value
             if all(v == ivs[0] for v in ivs):

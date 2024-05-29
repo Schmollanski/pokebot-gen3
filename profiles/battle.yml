@@ -9,10 +9,10 @@ pickup_check_frequency: 5
 # Battling
 battle: false
 battle_method: strongest  # `strongest`
-faint_action: flee  # `stop`, `flee`, `rotate`
-new_move: stop  # `stop`, `cancel`, `learn_best`
-stop_evolution: true
-replace_lead_battler: false
+faint_action: rotate  # `stop`, `flee`, `rotate`
+new_move: learn_best  # `stop`, `cancel`, `learn_best`
+stop_evolution: false
+replace_lead_battler: true
 switch_strategy: first_available  # `first_available`
 banned_moves:
   - None
